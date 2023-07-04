@@ -1,0 +1,52 @@
+/* GLOBALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-animation: color-change-2x 3s linear infinite alternate both;
+  animation: color-change-2x 3s linear infinite alternate both;
+  /* background-image: url(../img/fondo.jpg); */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.negrita {
+  font-weight: 800;
+}
+
+.fino {
+  font-weight: 300;
+}
+
+.fuenteChica {
+  font-size: 1.5rem;
+  i {
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+  }
+}
+
+.fuenteMediana {
+  font-size: 2rem;
+}
+
+.fuenteGrande {
+  font-size: 4rem;
+}
+
+.textoTorcido {
+  transform: rotate(-5deg);
+}
